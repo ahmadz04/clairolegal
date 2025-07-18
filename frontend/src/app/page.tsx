@@ -25,7 +25,7 @@ export default function Home() {
     formData.append("file", file);
 
     try {
-      const res = await fetch("https://your-backend-url.onrender.com/analyze", {
+      const res = await fetch("https://clairolegal.onrender.com", {
         method: "POST",
         body: formData,
       });
